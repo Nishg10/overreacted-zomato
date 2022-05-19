@@ -1,0 +1,42 @@
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+
+.absolute-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    height:72px;
+}
+
+.header-location-search-container{
+    height: 54px;
+    display:flex;
+    align-items: center;
+    border-radius:8px;
+    box-shadow: var(--primary-box-shadow);
+    border: 1px solid var(--border-white);
+    width: 70%;
+    background-color: var(--primary-bg);
+}
+
+
+.cur-po{
+    cursor: pointer;
+}
+
+.collection-title{
+    font-size: 30px;
+    color: var(--heading-text);
+    margin-bottom: 32px;
+    font-weight: 600;
+}
